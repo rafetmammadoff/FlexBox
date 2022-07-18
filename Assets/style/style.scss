@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+#header{
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 85%;
+        .row{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            i{
+                color: #dec18c;
+            }
+                
+                .text{
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    font-family: "Varela Round";
+                    font-weight: 400;
+                    font-style: normal;
+                    p{
+                        margin-right: 20px;
+                    }
+                    
+                }
+                .logo{
+                    width: 20%;
+                }
+        }
+    }
+}
+#navbar{
+    height: 70px;
+    background-color: #dec18c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container-m{
+       width: 85%;
+        .row{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .items{
+                width: 70%;
+
+                ul{
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        color: #fff;
+                        transition: 1s all ease;
+                        list-style-type: none;
+                        cursor: pointer;
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                    .home{
+                        color: #000;
+                    }
+                }
+            }
+
+            .web-icons{
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                
+
+                .web-icon{
+                    width: 100px;
+                    display: flex;align-items: center;
+                    justify-content: space-between;
+                    color: #fff;
+                    
+                    i{
+                        
+                        cursor: pointer;
+                        
+                        &:hover{
+                            transition: 1s al ease;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
